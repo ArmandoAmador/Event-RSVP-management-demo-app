@@ -39,6 +39,10 @@
     <%= f.label :organizer_id %><br>
     <%= f.number_field :organizer_id %>
   </div>
+  <div class="field">
+    <%= f.label :all_tags, "List All Tags, separate each tag by a comma" %><br />
+    <%= f.text_field :all_tags %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
