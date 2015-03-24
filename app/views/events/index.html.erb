@@ -26,6 +26,9 @@
         <td><%= event.agenda %></td>
         <td><%= event.address %></td>
         <td><%= event.organizer_id %></td>
+        <td>
+        <%=raw event.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %>
+        </td>
         <td><%= link_to 'Show Details', event %></td>
         <td><%= link_to 'Edit', edit_event_path(event) %></td>
         <td><%= link_to 'Delete', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
