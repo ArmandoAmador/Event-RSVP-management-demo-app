@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start_date: 2015-03-23 22:22:04
+  end_date: 2015-03-23 22:22:04
+  location: MyString
+  agenda: MyText
+  address: MyText
+  organizer_id: 1
+
+two:
+  title: MyString
+  start_date: 2015-03-23 22:22:04
+  end_date: 2015-03-23 22:22:04
+  location: MyString
+  agenda: MyText
+  address: MyText
+  organizer_id: 1
